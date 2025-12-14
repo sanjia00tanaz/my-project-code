@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The New York Times</title>
+<style>
+    body {
+        font-family: 'Georgia', serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #111;
+    }
+
+    header {
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    nav {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    nav span {
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .container {
+        display: flex;
+        max-width: 1100px;
+        margin: 30px auto;
+        gap: 30px;
+    }
+
+    .left {
+        flex: 1;
+    }
+
+    .left h2 {
+        font-size: 26px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    .left h2 span {
+        color: crimson;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .left p {
+        font-size: 16px;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .left .article {
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+        margin-top: 15px;
+    }
+
+    .left .article h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .left .article span {
+        color: #777;
+        font-size: 13px;
+    }
+
+    .right {
+        flex: 1.3;
+    }
+
+    .right img {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .caption {
+        font-size: 12px;
+        color: #777;
+        margin-top: 5px;
+        text-align: right;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <span>U.S.</span>
+        <span>World</span>
+        <span>Business</span>
+        <span>Arts</span>
+        <span>Lifestyle</span>
+        <span>Opinion</span>
+        <span>Audio</span>
+        <span>Games</span>
+        <span>Cooking</span>
+    </nav>
+    <h1>The New York Times</h1>
+</header>
+
+<div class="container">
+    <div class="left">
+        <h2><span>Live</span><br>White House, in U-Turn, Says No Plans for Trump-Putin to Meet Soon</h2>
+        <p>The reversal came after President Trump suggested last week that he would meet President Vladimir Putin of Russia to discuss ways to end the war in Ukraine.</p>
+
+        <div class="article">
+            <h3>On Ukraine and Russia, Lots of Talk but Little Has Changed</h3>
+            <span>4 MIN READ</span>
+        </div>
+
+        <div class="article">
+            <h3>Russia Pushes a State-Controlled ‘Super App’ by Sabotaging Its Rivals</h3>
+            <span>6 MIN READ</span>
+        </div>
+    </div>
+
+    <div class="right">
+        <img src="af3a1ebd-403b-4bf7-b837-6ef274ccf8c5.png" alt="Trump speaking at the White House">
+        <div class="caption">Doug Mills / The New York Times</div>
+    </div>
+</div>
+
+</body>
+</html>
